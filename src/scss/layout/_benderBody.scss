@@ -16,28 +16,16 @@
     border-radius: 50% 0 50% 50%;
   }
   &__neck {
-    //   width: 110px;
-    //   height: 0px;
-    //   border-right: 30px solid transparent;
-    //   border-left: 38px solid transparent;
-    //   border-bottom: 40px solid $neckColor;
-    //height: 20px;
-    // clip-path: polygon(0% 100%, 25% 0%, 75% 0%, 100% 100%);
-    // clip-path: polygon(10% 100%, 35% 0%, 70% 0%, 90% 100%);
-    // border-radius: 90px;
-    // clip-path: polygon(6% 100%, 35% 0%, 67% 0%, 95% 100%);
     position: relative;
     top: -67.5px;
     z-index: 49;
     width: 100px;
     height: 24px;
     background-color: $neckColor;
-
     clip-path: polygon(6% 100%, 33% 0%, 70% 0%, 95% 100%);
     border-bottom-right-radius: 40%;
     border-bottom-left-radius: 40%;
     border: 0.75px solid $borderColor;
-
     transform: rotate(-2deg);
   }
   &__rightBorderNeck {
@@ -55,8 +43,8 @@
 
   &__mainBodyBorder {
     position: relative;
-    top: -101.5px;
     z-index: 40;
+    top: -101.5px;
     left: -1.65px;
     width: 92px;
     height: 81px;
@@ -67,12 +55,9 @@
 
   &__mainBody {
     position: relative;
-    // top: -4px;
-    top: -182px;
     z-index: 48;
+    top: -182px;
     left: -1.4px;
-    // top: -0.5px;
-    // left: -2.5px;
     width: 90.5px;
     height: 80px;
     background-color: $grey;
@@ -128,10 +113,10 @@
   }
 
   &__armsContainer {
-    position: relative;
     display: flex;
-    top: -267px;
     justify-content: space-between;
+    position: relative;
+    top: -267px;
     width: 110px;
     height: 120px;
     .piece1,
@@ -151,12 +136,12 @@
       top: -1.5px;
       .shoulder {
         position: relative;
+        z-index: 100;
         top: 3px;
         left: 11px;
-        z-index: 100;
-        background-color: $shoulderColor;
         width: 22px;
         height: 25px;
+        background-color: $shoulderColor;
         border-radius: 31px 28px 35px 34px;
         border: 0.75px solid $borderColor;
         transform: rotate(-15deg);
@@ -172,78 +157,55 @@
         z-index: 101;
         top: -22px;
         left: 3.7px;
-        transform: rotate(41deg);
-        // border-radius: 4px 9px 5px 17px/ 34px 34px 4px 100px;
-        border-radius: 20px 20px 0px 0px/ 15px 15px 0px 0px;
         height: 18px;
+        transform: rotate(41deg);
+        border-radius: 20px 20px 0px 0px/ 15px 15px 0px 0px;
       }
       .piece3 {
         z-index: 101;
-        // top: -24px;
         top: -29.5px;
         left: -5.5px;
         height: 18px;
-        // left: -5px;
-        // transform: rotate(36deg);
         transform: rotate(40deg);
-        // border-radius: 10px 7px 10px 20px/ 30px 4px 30px 40px;
         border-radius: 20px 20px 10px 12px/ 15px 15px 10px 40px;
       }
       .piece4 {
         z-index: 101;
-        // top: -35.5px;
-        // left: -10.2px;
-
-        // width: 17px;
-        // transform: rotate(15deg);
-        // border-radius: 2px 4px 0px 12px;
-        // border-radius: 4px 16px 0px 12px/ 15px 15px 10px 10px;
-
-        //border-radius: 15px 26px 15px 30px/ 10px 25px 20px 15px;
-        border-radius: 5px 26px 15px 30px/ 30px 25px 20px 20px;
-        transform: rotate(30deg);
-        // top: -37px;
-        // left: -10.3px;
-        // top: -37px;
-        // left: -10.6px;
         top: -37px;
         left: -11.4px;
         height: 16.5px;
         width: 17px;
+        border-radius: 5px 26px 15px 30px/ 30px 25px 20px 20px;
+        transform: rotate(30deg);
       }
       .piece5 {
         z-index: 100;
         top: -47px;
         left: 0px;
-        transform: rotate(-60deg);
-        // border-radius: 4px 9px 5px 17px/ 34px 34px 4px 100px;
-        border-radius: 0px 3px 30px 30px/ 0px 3px 10px 10px;
         height: 18px;
-        // width: 11.2px;
         width: 13px;
+        transform: rotate(-60deg);
+        border-radius: 0px 3px 30px 30px/ 0px 3px 10px 10px;
       }
       .piece6 {
         z-index: 99;
         top: -56.7px;
         left: 12px;
+        height: 15px;
+        width: 13px;
         transform: rotate(-60deg);
         border-radius: 0px 3px 30px 30px/ 0px 3px 10px 10px;
-        height: 15px;
-        // width: 11.2px;
-        width: 13px;
       }
       .hand {
         position: relative;
         top: 100px;
         left: 20px;
-        
        
         &__handTop {
           position: relative;
-          z-index: 999;
+          z-index: 101;
           top: -160.5px;
           left: 5px;
-          z-index: 101;
           height: 7px;
           width: 19px;
           transform: rotate(110deg);
@@ -262,7 +224,6 @@
           border: 0.75px solid $borderColor;
           transform: rotate(-68deg);
           clip-path: polygon(9% 100%, 25% 0%, 76% 0%, 95% 80%);
-          // border-radius: 0px 0px 10px 10px/ 0px 0px 35px 30px;
         }
         &__handBorderLeft {
           position: relative;
@@ -348,38 +309,23 @@
         position: relative;
         z-index: 10;
         left: -2px;
-        background-color: $shoulderColor;
         width: 6.5px;
         height: 25px;
+        background-color: $shoulderColor;
         border-radius: 5px 14px 23px 3px/ 2px 23px 40px 1px;
         border: 0.75px solid $borderColor;
         transform: rotate(5deg);
       }
-      // .piece1 {
-      //   z-index: 9;
-      //   top: -14.8px;
-      //   left: -1px;
-      //   width: 15px;
-      //   transform: rotate(-65deg);
-      // }
+      
       .piece1 {
         z-index: 9;
         top: -16.7px;
         left: -1px;
         width: 14.3px;
         transform: rotate(-73deg);
-        // border-radius: 0 15px 3px 5px/ 0 10px 45px 25px;
         border-radius: 20px 20px 8px 8px/ 15px 15px 50px 35px;
       }
-      // .piece2 {
-      //   z-index: 101;
-      //   top: -27px;
-      //   left: 8px;
-      //   transform: rotate(-65deg);
-      //   border-radius: 20px 20px 8px 3px/ 15px 15px 30px 30px;
-      //   height: 18px;
-      //   width: 15px;
-      // }
+
       .piece2 {
         z-index: 101;
         top: -31.1px;
@@ -389,15 +335,7 @@
         height: 18px;
         width: 13.8px;
       }
-      // .piece3 {
-      //   z-index: 101;
-      //   top: -43.8px;
-      //   left: 18px;
-      //   transform: rotate(-78deg);
-      //   border-radius: 20px 20px 8px 5px/ 15px 15px 30px 30px;
-      //   height: 22px;
-      //   width: 15px;
-      // }
+      
       .piece3 {
         z-index: 101;
         top: -48px;
@@ -407,59 +345,30 @@
         height: 18px;
         width: 14px;
       }
-      // .piece4 {
-      //   z-index: 101;
-      //   top: -66.8px;
-      //   left: 26px;
-      //   transform: rotate(-140deg);
-      //   border-radius: 40px 40px 88px 5px/ 45px 45px 90px 30px;
-      //   height: 21px;
-      //   width: 15px;
-      // }
+      
       .piece4 {
         z-index: 101;
         top: -79px;
         left: 18.5px;
-        transform: rotate(-191deg);
-        // border-radius: 10px 40px 38px 35px/ 25px 45px 30px 60px;
-        border-radius: 10px 55px 38px 10px/ 30px 45px 30px 80px;
         height: 20px;
         width: 15px;
+        transform: rotate(-191deg);
+        border-radius: 10px 55px 38px 10px/ 30px 45px 30px 80px;
       }
-      // .piece5 {
-      //   z-index: 101;
-      //   top: -98.8px;
-      //   left: 30px;
-      //   transform: rotate(-185deg);
-      //   border-radius: 20px 40px 38px 5px/ 35px 35px 30px 30px;
-      //   height: 22px;
-      //   width: 16px;
-      // }
+      
       .piece5 {
         z-index: 101;
         top: -108px;
         left: 15.1px;
-        // transform: rotate(-198deg);
-        // border-radius: 20px 20px 18px 8px/ 15px 15px 50px 35px;
-        // height: 22px;
         width: 14.6px;
         transform: rotate(-20deg);
         border-radius: 0px 15px 30px 30px/ 0px 60px 10px 10px;
       }
-      // .piece6 {
-      //   z-index: 101;
-      //   top: -135px;
-      //   left: 28px;
-      //   transform: rotate(-195deg);
-      //   border-radius: 40px 40px 18px 5px/ 45px 45px 90px 30px;
-      //   height: 22px;
-      //   width: 16px;
-      // }
+  
       .piece6 {
         z-index: 101;
         top: -133px;
         left: 10.1px;
-        z-index: 101;
         height: 14px;
         width: 13px;
         transform: rotate(-30deg);
@@ -467,10 +376,9 @@
       }
       .handTop {
         position: relative;
-        z-index: 999;
+        z-index: 101;
         top: -158.5px;
         left: -4px;
-        z-index: 101;
         height: 7px;
         width: 19px;
         transform: rotate(-205deg);
@@ -489,8 +397,8 @@
         border: 0.75px solid $borderColor;
         transform: rotate(-205deg);
         clip-path: polygon(9% 100%, 25% 0%, 76% 0%, 95% 80%);
-        // border-radius: 0px 0px 10px 10px/ 0px 0px 35px 30px;
       }
+
       .handBorderLeft {
         position: relative;
         z-index: 99;
@@ -537,7 +445,6 @@
         transform: rotate(-45deg);
         background-color: $handsAndFeetColor;
         border: 0.75px solid $borderColor;
-        // border-radius:  25px 30px 30px 15px / 25px 20px 20px 5px;
         border-radius: 45px 40px 40px 25px / 45px 30px 30px 5px;
       }
       .finger2 {
@@ -614,15 +521,15 @@
   }
 
   &__legsContainer {
+    display: flex;
+    justify-content: space-between;
     position: relative;
     z-index: 47;
     left: 5px;
     top: -308px;
-    display: flex;
-    justify-content: space-between;
     width: 55px;
     height: 120px;
-    // border: 1px solid black;
+
     .piece1,
     .piece2,
     .piece3,
@@ -630,22 +537,12 @@
     .piece5,
     .piece6 {
       position: relative;
-      background-color: $bodyColor;
       width: 16px;
       height: 15px;
+      background-color: $bodyColor;
       border: 0.75px solid $borderColor;
     }
-    &--shape {
-      position: absolute;
-      z-index: 11;
-      top: -5px;
-      left: -29px;
-      width: 40px;
-      height: 90px;
-      background-color: $bkColor;
-      border-right: 0.75px solid $borderColor;
-      border-radius: 50%;
-    }
+    
     &--leftLeg {
       position: relative;
       z-index: 0;
@@ -657,10 +554,6 @@
         width: 15.45px;
       }
       .piece2 {
-        // top: -2px;
-        // left: 2.5px;
-        // border-radius: 2px 2px 0 0;
-        // transform: rotate(-11deg);
         z-index: 0;
         top: -5px;
         left: 3.8px;
@@ -669,52 +562,34 @@
         transform: rotate(-18deg);
       }
       .piece3 {
-        // top: -3px;
-        // border-radius: 2px 2px 5px 15px/ 0px 2px 20px 8px;
-        // transform: rotate(-10deg) translateX(5.5px);
-        // transform: rotate(-18deg);
         z-index: 1;
-        width: 15.65px;
-        height: 20px;
         top: -8px;
         left: 8px;
+        width: 15.65px;
+        height: 20px;
         border-radius: 15px 15px 7px 0px/ 5px 5px 40px 0px;
         transform: rotate(-15deg);
       }
       .piece4 {
-        // width: 15px;
-        // border-radius: 15px 2px 18px 5px/ 2px 2px 70px 25px;
-        // transform: rotate(2deg) translate(5.5px, -8.5px);
         z-index: 2;
-        height: 20px;
         top: -13px;
         left: 10px;
+        height: 20px;
         width: 14.2px;
         transform: rotate(-2deg);
         border-radius: 15px 15px 5px 0px/ 5px 5px 40px 0px;
       }
       .piece5 {
-        // border-radius: 5px 2px 12px 5px/ 22px 2px 70px 2px;
-        // transform: rotate(6deg) translate(3.5px, -10px);
         z-index: 3;
-        width: 13px;
-        height: 17px;
         top: -16.5px;
         left: 9px;
+        width: 13px;
+        height: 17px;
         transform: rotate(10deg);
         border-radius: 15px 15px 2px 0px/ 5px 5px 30px 0px;
       }
       .piece6 {
-        // top: -2px;
-        // width: 11.5px;
-        // border-radius: 5px 2px 12px 5px/ 22px 2px 70px 2px;
-        // transform: rotate(7deg) translate(1.5px, -11px);
-        // top: -19px;
-        // left: 6px;
-        // transform: rotate(15deg);
-        // border-radius: 15px 15px 20px 20px/ 5px 5px 50px 20px;
         z-index: 3;
-        width: 11.5px;
         top: -21px;
         left: 6.5px;
         width: 12.65px;
@@ -742,10 +617,10 @@
       }
       .piece3 {
         z-index: 1;
-        width: 15.65px;
-        height: 20px;
         top: -8px;
         left: 8px;
+        width: 15.65px;
+        height: 20px;
         border-radius: 15px 15px 7px 0px/ 5px 5px 40px 0px;
         transform: rotate(-15deg);
       }
@@ -768,12 +643,7 @@
         border-radius: 15px 15px 2px 0px/ 5px 5px 30px 0px;
       }
       .piece6 {
-        // top: -19px;
-        // left: 6px;
-        // transform: rotate(15deg);
-        // border-radius: 15px 15px 20px 20px/ 5px 5px 50px 20px;
         z-index: 3;
-        width: 11.5px;
         top: -21px;
         left: 6.5px;
         width: 12.65px;
@@ -792,7 +662,7 @@
     left: 15px;
     width: 85px;
     height: 25px;
-    //border: 1px solid black;
+
     &--leftFoot {
       position: relative;
       top: 3.5px;

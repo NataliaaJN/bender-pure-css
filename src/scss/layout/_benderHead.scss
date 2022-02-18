@@ -45,17 +45,6 @@
         display: flex;
         justify-content: center;
 
-        //border: 2px solid $borderColor;
-        //filter: drop-shadow(2px 2px $borderColor)
-        //border: 2px solid $borderColor;
-        // width: 0;
-        // height: 0;
-
-        // border-bottom: 15px solid $borderColor;
-        // border-left: 4px solid transparent;
-        // border-right: 4px solid transparent;
-        // border-radius: 5px;
-
         &--body {
           position: relative;
           z-index: 9;
@@ -67,17 +56,6 @@
           border-radius: 5px;
           transform: rotate(-1deg);
           border-radius: 40px 40px 5px 5px/ 52px 15px 5px 5px;
-          //   width: 8px;
-          //   height: 25px;
-          //background-color: $grey;
-          //   clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
-          // clip-path: polygon(35% 0, 65% 0, 100% 100%, 0 100%);
-          // width: 0;
-          // height: 0;
-          // width: 5px;
-          // height: 15px;
-          // background-color: $grey;
-          // border: 0.75px solid $borderColor;
         }
       }
       &--base {
@@ -93,9 +71,6 @@
         border-bottom-right-radius: 40%;
         border-bottom-left-radius: 40%;
         border: 1px solid $borderColor;
-        // filter: drop-shadow(0 0 0 $borderColor)
-        //   drop-shadow(0 -1px 0 $borderColor) drop-shadow(0 1px 0 $borderColor)
-        //   drop-shadow(0 0.5px 0 $borderColor);
       }
     }
     &--face {
@@ -123,7 +98,6 @@
           background-color: $eyesOuterContainerColor;
           border: 1px solid $borderColor;
           border-radius: 17px 20px 20px 17px;
-          // transform: rotate(2deg);
           &--eyesInnerContainer {
             position: absolute;
             display: flex;
@@ -180,12 +154,6 @@
         }
         &--part2 {
           position: absolute;
-          // bottom: 2px;
-          // right: -1.5px;
-          // width: 40px;
-          // height: 9px;
-          //border: 1px solid black;
-          //transform: skew(25deg) rotate(7deg);
           border-right: 1px solid $borderColor;
           bottom: -0.9px;
           right: -2.1px;
@@ -233,17 +201,11 @@
           
           background-color: $grey;
           border-right: 1px solid $borderColor;
-          border-bottom: 1px solid $borderColor;
-          //border-radius: 0 0 20px 0;
-          
+          border-bottom: 1px solid $borderColor;          
           bottom: -3px;
           height: 9px;
           width: 44px;
           border-radius: 0 2px 6px 12px;
-          // bottom: -1px;
-          // width: 40px;
-          // height: 9px;
-          //border: 1px solid black;
         }
       }
     }
@@ -251,14 +213,6 @@
     &--bottom {
       position: relative;
       z-index: 51;
-      // top: -11px;
-      // left: 1px;
-      // width: 39px;
-      // height: 15px;
-
-      // background-color: $grey;
-      // border-bottom: 0.75px solid $borderColor;
-      // border-radius: 50%;
       top: -12.5px;
       left: 1px;
       width: 40px;
