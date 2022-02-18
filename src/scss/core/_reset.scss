@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "fr-title";
+  src: url("../../fonts/fr-title.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "fr-title", sans-serif;
+}
