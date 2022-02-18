@@ -3,66 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Bender</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <div class="background">
+      <h1>BENDER</h1>
+      <!-- BENDER -->
+      <div class="bender">
+        <!-- Bender's head  -->
+        <div class="bender__head">
+          <!-- Antenna -->
+          <div class="bender__head--antenna">
+            <div class="bender__head--antenna--ballTop"></div>
+            <div class="bender__head--antenna--border"></div>
+            <div class="bender__head--antenna--bodyContainer">
+              <div class="bender__head--antenna--bodyContainer--body"></div>
+            </div>
+            <div class="bender__head--antenna--base"></div>
+          </div>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+          <!-- Face -->
+          <div class="bender__head--face">
+            <div class="bender__head--face--faceTop">
+                <!-- Eyes -->
+              <div class="bender__head--face--faceTop--eyesOutContainer">
+                <div
+                  class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer"
+                >
+                  <div
+                    class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer--closeEyes"
+                  ></div>
+                  <div
+                    class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer--leftEye"
+                  >
+                    <div
+                      class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer--leftEye--pupil"
+                    ></div>
+                  </div>
+                  <div
+                    class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer--rightEye"
+                  >
+                    <div
+                      class="bender__head--face--faceTop--eyesOutContainer--eyesInnerContainer--leftEye--pupil"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="bender__head--face--faceTop--part2"></div>
+            </div>
+            <div class="bender__head--face--faceBottom">
+              <!-- Mouth -->
+              <div class="bender__head--face--faceBottom--mouth">
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+                <div class="tooth"></div>
+              </div>
+              <div class="bender__head--face--faceBottom--part2"></div>
+            </div>
+            <div class="bender__head--bottom"></div>
+          </div>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        </div>
 
-          </li>
-        </ul>
-      </main>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-
-        </small>
-      </footer>
-
+        <!-- Bender's body -->
+        <div class="body"></div>
+        <div class="body__leftBorderNeck"></div>
+        <div class="body__neck"></div>
+        <div class="body__rightBorderNeck"></div>
+        <div class="body__mainBodyBorder"></div>
+        <div class="body__mainBody">
+          <div class="body__mainBody--doorShape"></div>
+          <div class="body__mainBody--door">
+            <div class="body__mainBody--door--knob"></div>
+          </div>
+        </div>
+        <div class="body__mainBodyBottom"></div>
+        <div class="body__armsContainer">
+          <div class="body__armsContainer--leftArm">
+            <div class="shoulder"></div>
+            <div class="piece1"></div>
+            <div class="piece2"></div>
+            <div class="piece3"></div>
+            <div class="piece4"></div>
+            <div class="piece5"></div>
+            <div class="piece6"></div>
+            <div class="hand">
+            <div class="hand__handTop"></div>
+            <div class="hand__handBottom"></div>
+            <div class="hand__handBorderLeft"></div>
+            <div class="hand__handBorderBottom"></div>
+            <div class="hand__finger1-part1"></div>
+            <div class="hand__finger1-part2"></div>
+            <div class="hand__finger2"></div>
+            <div class="hand__finger3"></div></div>
+          </div>
+          <div class="body__armsContainer--rightArm">
+            <div class="shoulder"></div>
+            <div class="piece1"></div>
+            <div class="piece2"></div>
+            <div class="piece3"></div>
+            <div class="piece4"></div>
+            <div class="piece5"></div>
+            <div class="piece6"></div>
+            <div class="handTop"></div>
+            <div class="handBottom"></div>
+            <div class="handBorderLeft"></div>
+            <div class="handBorderBottom"></div>
+            <div class="finger1-part1"></div>
+            <div class="finger1-part2"></div>
+            <div class="finger2"></div>
+            <div class="finger3"></div>
+            <div class="cigar">
+              <div class="cigar__red"></div>
+              <div class="cigar__grey"></div>
+              <div class="cigar__detail"></div>
+            </div>
+          </div>
+        </div>
+        <div class="body__legsContainer">
+          <div class="body__legsContainer--leftLeg">
+            <div class="piece1"></div>
+            <div class="piece2"></div>
+            <div class="piece3"></div>
+            <div class="piece4"></div>
+            <div class="piece5"></div>
+            <div class="piece6"></div>
+          </div>
+          <div class="body__legsContainer--rightLeg">
+            <div class="piece1"></div>
+            <div class="piece2"></div>
+            <div class="piece3"></div>
+            <div class="piece4"></div>
+            <div class="piece5"></div>
+            <div class="piece6"></div>
+          </div>
+        </div>
+        <div class="body__feetContainer">
+          <div class="body__feetContainer--leftFoot"></div>
+          <div class="body__feetContainer--rightFoot"></div>
+        </div>
+      </div>
     </div>
+    <!-- <footer class="page__footer">
+      <small> &copy; 2021 </small>
+    </footer> -->
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
