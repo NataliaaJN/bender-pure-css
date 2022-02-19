@@ -183,7 +183,9 @@
           // bottom: -1.9px;
           // bottom: -1.4px;
 
-          bottom: -0.75px;
+          // bottom: -0.75px;
+
+          bottom: -0.6px;
           right: -2.1px;
           width: 8px;
           height: 11px;
@@ -211,7 +213,7 @@
 
           top: 0.8px;
           // right: -4px;
-          left: 6.2px;
+          left: 6.4px;
           width: 37px;
           // height: 19px;
           // height: 18px;
@@ -226,7 +228,9 @@
           .tooth {
             position: relative;
             top: -0.5px;
-            left: 0.15px;
+            // left: 0.15px;
+
+            left: 0.45px;
             width: 8.75px;
             height: 7px;
             border: 0.5px solid $borderColor;
