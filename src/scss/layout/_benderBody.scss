@@ -505,7 +505,7 @@
         border-radius: 20px 5px 5px 20px / 10px 5px 5px 10px;
         &__red {
           position: relative;
-          z-index: 106;
+          z-index: 999;
           top: -0.8px;
           left: 23px;
           width: 5px;
@@ -513,6 +513,8 @@
           background-color: rgb(238, 81, 34);
           border-radius: 50%;
           border: 0.75px solid $borderColor;
+          animation: incandesce 8.5s linear infinite;
+          animation-delay: 0.6s;
         }
         &__grey {
           position: relative;
