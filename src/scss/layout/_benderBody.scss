@@ -568,6 +568,10 @@
         transform: rotate(-19deg);
         height: 17px;
         width: 15.45px;
+
+
+        top: -0.1px;
+        left: 0.1px;
       }
       .piece2 {
         z-index: 0;
@@ -622,6 +626,9 @@
         transform: rotate(-19deg);
         height: 17px;
         width: 15.45px;
+
+        top: -0.1px;
+        left: 0.1px;
       }
       .piece2 {
         z-index: 0;
@@ -634,7 +641,9 @@
       .piece3 {
         z-index: 1;
         top: -8px;
-        left: 8.3px;
+        // left: 8.3px;
+
+        left: 8.15px;
         width: 15.2px;
         height: 20px;
         border-radius: 15px 15px 5.5px 0px/ 5px 5px 30px 0px;

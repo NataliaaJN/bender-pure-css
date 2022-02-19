@@ -86,6 +86,37 @@
   }
 }
 
+// move eyes
+@keyframes moveEyes {
+  0% {
+    left: 6px;
+  }
+
+  25% {
+    left: 6px;
+  }
+  30% {
+    left: 10px;
+  }
+
+  
+  55% {
+    left: 10px;
+  }
+  60% {
+    left: 6px;
+  }
+  80% {
+    left: 6px;
+  }
+  90% {
+    left: 6px;
+  }
+  100% {
+    left: 6px;
+  }
+}
+
 // move arm with cigar
 @keyframes moveArm {
   0% {
