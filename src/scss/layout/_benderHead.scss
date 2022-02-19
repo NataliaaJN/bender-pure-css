@@ -125,6 +125,8 @@
               height: 7px;
               background-color: $eyesInnerContainerColor;
               border-radius: 17px 20px 0 0;
+              animation: closeEye 8.5s linear infinite;
+              // animation-delay: 1.5s;
             }
 
             &--leftEye {

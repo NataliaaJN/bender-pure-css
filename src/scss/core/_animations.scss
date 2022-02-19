@@ -29,12 +29,33 @@
 
 @keyframes closeEye {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    top: 0px;
+    left: 2px;
+    height: 0px;
+  }
+  30% {
+    top: 0px;
+    height: 0px;
+  }
+  40% {
+    top: 1px;
+    height: 7px;
+  }
+  65% {
+    top: 1px;
+    height: 7px;
+  }
+  75% {
+    top: 1px;
+    height: 0px;
+  }
+  90% {
+    top: -1px;
+    height: 0px;
   }
   100% {
-    -webkit-transform: translateY(100px);
-    transform: translateY(100px);
+    top: -1px;
+    height: 0px;
   }
 }
 
@@ -45,6 +66,7 @@
   25% {
     background-color: rgb(238, 81, 34);
   }
+
   28% {
     background-color: rgb(251, 167, 32);
   }
