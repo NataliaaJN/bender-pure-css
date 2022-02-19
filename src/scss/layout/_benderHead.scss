@@ -187,7 +187,8 @@
           right: -4px;
           width: 37px;
           height: 19px;
-          background-color: $mouthColor;
+           background-color: $mouthColor;
+          //background-color: black;
           border: 1px solid $borderColor;
           border-radius: 30px 5px 2px 30px;
           overflow: hidden;
@@ -201,6 +202,23 @@
             height: 7px;
             border: 0.5px solid $borderColor;
           }
+          .tooth1, .tooth2, .tooth3, .tooth4, .tooth5, .tooth6, .tooth7, .tooth9, .tooth10, .tooth11, .tooth12, .tooth13, .tooth14, .tooth15, .tooth16,.tooth8{
+            position: relative;
+            z-index: 54;
+            background-color: $mouthColor;
+          }
+          .tooth4, .tooth5, .tooth7, .tooth12{
+            outline: 0.5px solid $borderColor;
+          }
+          .tooth8{
+            // background-color: black;
+            animation: slide 8.5s linear infinite;
+          }
+          // .tooth8-animation{
+          //   background-color: black;
+          //   animation: slide 4.5s linear infinite;
+          //   animation-delay: 0.5s;
+          // }
         }
         &--part2 {
           position: absolute;
