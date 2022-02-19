@@ -10,8 +10,8 @@ const gulp = require('gulp');
 const htmlInclude = require('gulp-html-tag-include');
 const notify = require('gulp-notify');
 const plumber = require('gulp-plumber');
-var sass = require('gulp-sass')(require('node-sass'));
 const sourcemaps = require('gulp-sourcemaps');
+var sass = require('gulp-sass')(require('node-sass'));
 const uglify = require('gulp-uglify-es').default;
 
 // secondary tasks
@@ -78,6 +78,14 @@ gulp.task('images', done => {
   done();
 });
 
+gulp.task('fonts', done => {
+  gulp
+    .src(config.fonts.src)
+    .pipe(plumber({ errorHandler: notify.onError('Error: <%= error.message %>') }))
+    .pipe(gulp.dest(config.fonts.dest));
+  done();
+});
+
 gulp.task('js', done => {
   gulp
     .src(config.js.src)
@@ -108,17 +116,26 @@ gulp.task('images-dist', done => {
   done();
 });
 
+gulp.task('fonts-dist', done => {
+  gulp
+    .src(config.fonts.src)
+    .pipe(plumber({ errorHandler: notify.onError('Error: <%= error.message %>') }))
+    .pipe(gulp.dest(config.fonts.dist));
+  done();
+});
+
 // main tasks
 
 gulp.task(
   'default',
-  gulp.series(['clean', 'api', 'html', 'css', 'js', 'images'], done => {
+  gulp.series(['clean', 'api', 'html', 'css', 'js', 'images', 'fonts'], done => {
     browserSync.init({ server: { baseDir: './public/' } });
     gulp.watch(config.api.src, gulp.series(['api', 'bs-reload']));
     gulp.watch(config.css.src, gulp.series('css'));
     gulp.watch(config.images.src, gulp.series(['images', 'bs-reload']));
     gulp.watch(config.js.src, gulp.series(['js', 'bs-reload']));
     gulp.watch(config.watch.html, gulp.series(['html', 'bs-reload']));
+    gulp.watch(config.fonts.src, gulp.series(['fonts', 'bs-reload']));
     done();
   })
 );
@@ -132,7 +149,8 @@ gulp.task(
       'css-dist',
       'html-dist',
       'js-dist',
-      'images-dist'
+      'images-dist',
+      'fonts-dist'
       // 'icons-dist'
     ],
     done => done()

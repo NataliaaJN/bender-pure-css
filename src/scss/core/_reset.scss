@@ -1,11 +1,14 @@
+// @font-face {
+//   font-family: "fr-title";
+//   src: url("../fonts/fr-title.ttf") format("truetype");
+// }
 @font-face {
-  font-family: "fr-title";
-  src: url("../../fonts/fr-title.ttf") format("truetype");
+  font-family: "futurama";
+  src: url("../fonts/futurama.ttf") format("truetype");
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "fr-title", sans-serif;
+  font-family: "futurama", sans-serif;
 }
