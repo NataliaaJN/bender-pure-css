@@ -1,3 +1,4 @@
+// slide tooth
 @keyframes slide {
   0% {
     -webkit-transform: translateY(100px);
@@ -27,6 +28,7 @@
   }
 }
 
+// close eyes
 @keyframes closeEye {
   0% {
     top: 0px;
@@ -59,6 +61,7 @@
   }
 }
 
+// cigar incandesce
 @keyframes incandesce {
   0% {
     background-color: rgb(238, 81, 34);
@@ -80,3 +83,39 @@
     background-color: rgb(238, 81, 34);
   }
 }
+
+
+// move arm with cigar
+@keyframes moveArm {
+    0% {
+        top: -3px;
+        left: 13px;
+        transform: rotate(0deg);
+    }
+    
+    22% {
+        top: -3px;
+        left: 13px;
+        transform: rotate(0deg);
+    }
+    30% {
+        top: -11px;
+        left: 6px;
+        transform: rotate(-3deg);
+    }
+    70% {
+        top: -11px;
+        left: 6px;
+        transform: rotate(-3deg);
+    }
+    80% {
+        top: -3px;
+        left: 13px;
+         transform: rotate(0deg);
+    }
+    100% {
+        top: -3px;
+        left: 13px;
+         transform: rotate(0deg);
+    }
+  }

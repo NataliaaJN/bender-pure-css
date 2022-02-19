@@ -322,10 +322,9 @@
     &--rightArm {
       position: relative;
       top: -3px;
-      left: 13px;
-      top: -11px;
-      left: 6px;
-      transform: rotate(-3deg);
+      left: 10px;
+      // transform: rotate(5deg);
+      animation: moveArm 8.5s linear infinite;
       .shoulder {
         position: relative;
         z-index: 10;
