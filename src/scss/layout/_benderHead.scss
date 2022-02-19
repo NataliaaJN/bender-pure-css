@@ -3,14 +3,14 @@
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     margin-top: 200px;
-    transform: scale(1.5,1.5);
-   }
-   @media (min-width: 1024px){
+    transform: scale(1.5, 1.5);
+  }
+  @media (min-width: 1024px) {
     margin-top: 320px;
-    transform: scale(1.75,1.75);
-   }
+    transform: scale(1.75, 1.75);
+  }
   &__head {
     position: relative;
     z-index: 999;
@@ -126,7 +126,6 @@
               background-color: $eyesInnerContainerColor;
               border-radius: 17px 20px 0 0;
               animation: closeEye 8.5s linear infinite;
-              // animation-delay: 1.5s;
             }
 
             &--leftEye {
@@ -189,14 +188,13 @@
           right: -4px;
           width: 37px;
           height: 19px;
-           background-color: $mouthColor;
-          //background-color: black;
+          background-color: $mouthColor;
           border: 1px solid $borderColor;
           border-radius: 30px 5px 2px 30px;
           overflow: hidden;
           display: flex;
           flex-wrap: wrap;
-          .tooth{
+          .tooth {
             position: relative;
             top: -0.5px;
             left: 0.15px;
@@ -204,28 +202,45 @@
             height: 7px;
             border: 0.5px solid $borderColor;
           }
-          .tooth1, .tooth2, .tooth3, .tooth4, .tooth5, .tooth6, .tooth7, .tooth9, .tooth10, .tooth11, .tooth12, .tooth13, .tooth14, .tooth15, .tooth16,.tooth8{
+          .tooth1,
+          .tooth2,
+          .tooth3,
+          .tooth4,
+          .tooth5,
+          .tooth6,
+          .tooth7,
+          .tooth9,
+          .tooth10,
+          .tooth11,
+          .tooth12,
+          .tooth13,
+          .tooth14,
+          .tooth15,
+          .tooth16,
+          .tooth8 {
             position: relative;
             z-index: 54;
             background-color: $mouthColor;
           }
-          .tooth4, .tooth7, .tooth12{
+          .tooth4,
+          .tooth7,
+          .tooth12 {
             outline: 0.5px solid $borderColor;
           }
-          .tooth5{
+          .tooth5 {
             border-left: $mouthColor;
           }
-          .tooth8{
+          .tooth8 {
             animation: slide 8.5s linear infinite;
           }
         }
         &--part2 {
           position: absolute;
           right: -5px;
-          
+
           background-color: $grey;
           border-right: 1px solid $borderColor;
-          border-bottom: 1px solid $borderColor;          
+          border-bottom: 1px solid $borderColor;
           bottom: -3px;
           height: 9px;
           width: 44px;

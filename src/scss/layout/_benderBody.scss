@@ -278,20 +278,15 @@
         &__finger1-part3 {
           position: relative;
           z-index: 105;
-          //top: -205.1px;
           top: -204.8px;
           left: 16.2px;
           width: 5.8px;
           height: 7.3px;
           transform: rotate(-61deg);
           background-color: $handsAndFeetColor;
-          // border-radius: 0 8px 10px 0 / 0 45px 5px 0;
-          // border-radius: 0 2px 0px 0 / 0 5px 0px 0;
-         //border: 0.75px solid ;
           border-right: 0.5px solid ;
-          //border-right: 0.25px solid $handsAndFeetColor;
-         
         }
+        
         &__finger2 {
           position: relative;
           z-index: 98;
@@ -323,7 +318,6 @@
       position: relative;
       top: -3px;
       left: 10px;
-      // transform: rotate(5deg);
       animation: moveArm 8.5s linear infinite;
       .shoulder {
         position: relative;
