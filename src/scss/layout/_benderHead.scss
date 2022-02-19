@@ -207,8 +207,11 @@
             z-index: 54;
             background-color: $mouthColor;
           }
-          .tooth4, .tooth5, .tooth7, .tooth12{
+          .tooth4, .tooth7, .tooth12{
             outline: 0.5px solid $borderColor;
+          }
+          .tooth5{
+            border-left: $mouthColor;
           }
           .tooth8{
             animation: slide 8.5s linear infinite;
