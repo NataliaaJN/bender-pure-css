@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   &__leftBorderNeck {
     position: relative;
     z-index: 51;
@@ -201,10 +201,10 @@
         position: relative;
         top: 100px;
         left: 20px;
-       
+
         &__handTop {
           position: relative;
-          z-index: 101;
+          z-index: 106;
           top: -160.5px;
           left: 5px;
           height: 7px;
@@ -229,8 +229,8 @@
         &__handBorderLeft {
           position: relative;
           z-index: 99;
-          top: -172.4px;
-          left: 1.5px;
+          top: -177.6px;
+          left: 5px;
           height: 13.2px;
           width: 3px;
           background-color: $handsAndFeetColor;
@@ -240,65 +240,82 @@
         }
         &__handBorderBottom {
           position: relative;
-          z-index: 102;
-          top: -178.9px;
-          left: 6.5px;
-          width: 10.2px;
-          height: 3px;
-          transform: rotate(-205deg);
+          z-index: 90;
+          top: -199px;
+          left: 6.4px;
+          width: 11.5px;
+          height: 2px;
+          transform: rotate(0deg);
           background-color: $handsAndFeetColor;
           border-top: 0.75px solid $borderColor;
           border-radius: 50%;
         }
-        // &__finger1-part1 {
-        //   position: relative;
-        //   z-index: 102;
-        //   top: -190.9px;
-        //   left: -4.2px;
-        //   width: 5px;
-        //   height: 6px;
-        //   transform: rotate(-15deg);
-        //   background-color: $handsAndFeetColor;
-        //   border: 0.75px solid $borderColor;
-        //   border-radius: 25px 30px 0px 35px / 25px 20px 0px 25px;
-        // }
-        // &__finger1-part2 {
-        //   position: relative;
-        //   z-index: 105;
-        //   top: -199.9px;
-        //   left: -2px;
-        //   width: 10.2px;
-        //   height: 6px;
-        //   transform: rotate(-45deg);
-        //   background-color: $handsAndFeetColor;
-        //   border: 0.75px solid $borderColor;
-        //   // border-radius:  25px 30px 30px 15px / 25px 20px 20px 5px;
-        //   border-radius: 45px 40px 40px 25px / 45px 30px 30px 5px;
-        // }
-        // &__finger2 {
-        //   position: relative;
-        //   z-index: 106;
-        //   top: -214.9px;
-        //   left: -5px;
-        //   width: 10.2px;
-        //   height: 6px;
-        //   transform: rotate(-190deg);
-        //   background-color: $handsAndFeetColor;
-        //   border: 0.75px solid $borderColor;
-        //   border-radius: 25px 30px 30px 15px / 25px 0px 40px 15px;
-        // }
-        // &__finger3 {
-        //   position: relative;
-        //   z-index: 102;
-        //   top: -213.9px;
-        //   left: 6.5px;
-        //   width: 5px;
-        //   height: 5px;
-        //   transform: rotate(-205deg);
-        //   background-color: $handsAndFeetColor;
-        //   border: 0.75px solid $borderColor;
-        //   border-radius: 25px 30px 30px 15px / 25px 20px 40px 15px;
-        // }
+        &__finger1-part1 {
+          position: relative;
+          z-index: 100;
+          top: -191.6px;
+          left: 16px;
+          width: 7px;
+          height: 5.5px;
+          transform: rotate(-71deg);
+          background-color: $handsAndFeetColor;
+          border: 0.75px solid $borderColor;
+          border-bottom: transparent;
+          border-radius: 10px 40px 15px 40px / 20px 0px 35px 30px;
+        }
+        &__finger1-part2 {
+          position: relative;
+          z-index: 105;
+          top: -192.8px;
+          left: 15.4px;
+          width: 12.6px;
+          height: 6px;
+          transform: rotate(-60deg);
+          background-color: $handsAndFeetColor;
+          border: 0.75px solid $borderColor;
+          border-radius: 45px 0px 25px 40px / 45px 0px 35px 30px;
+        }
+        &__finger1-part3 {
+          position: relative;
+          z-index: 105;
+          //top: -205.1px;
+          top: -204.8px;
+          left: 16.2px;
+          width: 5.8px;
+          height: 7.3px;
+          transform: rotate(-61deg);
+          background-color: $handsAndFeetColor;
+          // border-radius: 0 8px 10px 0 / 0 45px 5px 0;
+          // border-radius: 0 2px 0px 0 / 0 5px 0px 0;
+         //border: 0.75px solid ;
+          border-right: 0.5px solid ;
+          //border-right: 0.25px solid $handsAndFeetColor;
+         
+        }
+        &__finger2 {
+          position: relative;
+          z-index: 98;
+          top: -203.9px;
+          left: 9.8px;
+          width: 12.2px;
+          height: 6px;
+          transform: rotate(-53deg);
+          background-color: $handsAndFeetColor;
+          border: 0.75px solid $borderColor;
+          border-radius: 25px 30px 0px 15px / 25px 0px 40px 15px;
+        }
+        &__finger3 {
+          position: relative;
+          z-index: 88;
+          top: -209.8px;
+          left: 6.8px;
+          width: 7px;
+          height: 6px;
+          transform: rotate(-50deg);
+          background-color: $handsAndFeetColor;
+          border: 0.75px solid $borderColor;
+          border-radius: 25px 30px 0px 35px / 25px 20px 0px 25px;
+        }
       }
     }
 
@@ -317,7 +334,7 @@
         border: 0.75px solid $borderColor;
         transform: rotate(5deg);
       }
-      
+
       .piece1 {
         z-index: 9;
         top: -16.7px;
@@ -336,7 +353,7 @@
         height: 18px;
         width: 13.8px;
       }
-      
+
       .piece3 {
         z-index: 101;
         top: -48px;
@@ -346,7 +363,7 @@
         height: 18px;
         width: 14px;
       }
-      
+
       .piece4 {
         z-index: 101;
         top: -79px;
@@ -356,7 +373,7 @@
         transform: rotate(-191deg);
         border-radius: 10px 55px 38px 10px/ 30px 45px 30px 80px;
       }
-      
+
       .piece5 {
         z-index: 101;
         top: -108px;
@@ -365,7 +382,7 @@
         transform: rotate(-20deg);
         border-radius: 0px 15px 30px 30px/ 0px 60px 10px 10px;
       }
-  
+
       .piece6 {
         z-index: 101;
         top: -133px;
@@ -543,7 +560,7 @@
       background-color: $bodyColor;
       border: 0.75px solid $borderColor;
     }
-    
+
     &--leftLeg {
       position: relative;
       z-index: 0;
@@ -558,17 +575,17 @@
         z-index: 0;
         top: -5px;
         left: 3.8px;
-        width: 15.45px;
+        width: 15.25px;
         border-radius: 15px 15px 0px 0px/ 5px 5px 0px 0px;
         transform: rotate(-18deg);
       }
       .piece3 {
         z-index: 1;
         top: -8px;
-        left: 8px;
-        width: 15.65px;
+        left: 8.3px;
+        width: 15.2px;
         height: 20px;
-        border-radius: 15px 15px 7px 0px/ 5px 5px 40px 0px;
+        border-radius: 15px 15px 5.5px 0px/ 5px 5px 30px 0px;
         transform: rotate(-15deg);
       }
       .piece4 {
@@ -592,7 +609,7 @@
       .piece6 {
         z-index: 3;
         top: -21px;
-        left: 6.5px;
+        left: 6.4px;
         width: 12.65px;
         transform: rotate(15deg);
         border-radius: 30px 30px 30px 30px/ 15px 15px 15px 15px;
@@ -612,41 +629,41 @@
         z-index: 0;
         top: -5px;
         left: 3.8px;
-        width: 15.45px;
+        width: 15.25px;
         border-radius: 15px 15px 0px 0px/ 5px 5px 0px 0px;
         transform: rotate(-18deg);
       }
       .piece3 {
         z-index: 1;
         top: -8px;
-        left: 8px;
-        width: 15.65px;
+        left: 8.3px;
+        width: 15.2px;
         height: 20px;
-        border-radius: 15px 15px 7px 0px/ 5px 5px 40px 0px;
+        border-radius: 15px 15px 5.5px 0px/ 5px 5px 30px 0px;
         transform: rotate(-15deg);
       }
       .piece4 {
         z-index: 2;
-        height: 20px;
         top: -13px;
         left: 10px;
+        height: 20px;
         width: 14.2px;
         transform: rotate(-2deg);
         border-radius: 15px 15px 5px 0px/ 5px 5px 40px 0px;
       }
       .piece5 {
         z-index: 3;
-        width: 13px;
-        height: 17px;
         top: -16.5px;
         left: 9px;
+        width: 13px;
+        height: 17px;
         transform: rotate(10deg);
         border-radius: 15px 15px 2px 0px/ 5px 5px 30px 0px;
       }
       .piece6 {
         z-index: 3;
         top: -21px;
-        left: 6.5px;
+        left: 6.4px;
         width: 12.65px;
         transform: rotate(15deg);
         border-radius: 30px 30px 30px 30px/ 15px 15px 15px 15px;
