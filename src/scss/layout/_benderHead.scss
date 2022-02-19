@@ -29,7 +29,7 @@
         // top: 0.3px;
 
         top: 0.4px;
-        left: -0.1px;
+        left: -0.15px;
         width: 7px;
         height: 7px;
         background-color: $grey;
@@ -54,7 +54,7 @@
         position: relative;
         top: -19.1px;
 
-        top: -19.1px;
+        top: -19px;
         display: flex;
         justify-content: center;
 
@@ -63,8 +63,8 @@
           z-index: 9;
           // top: -2.1px;
 
-          top: -2px;
-          left: 0.2px;
+          top: -1.9px;
+          left: 0.25px;
           border-bottom: 19px solid $grey;
           border-left: 2px solid transparent;
           border-right: 3px solid transparent;
@@ -183,7 +183,7 @@
           // bottom: -1.9px;
           // bottom: -1.4px;
 
-          bottom: -1px;
+          bottom: -0.75px;
           right: -2.1px;
           width: 8px;
           height: 11px;
@@ -256,11 +256,11 @@
           .tooth12 {
             outline: 0.5px solid $borderColor;
           }
-          .tooth4,
-          .tooth8,
-          .tooth12 {
-            border-right: 0.1px solid $borderColor;
-          }
+          // .tooth4,
+          // .tooth8,
+          // .tooth12 {
+          //   border-right: 0.1px solid $borderColor;
+          // }
           .tooth1 {
             border-left: $mouthColor;
           }
