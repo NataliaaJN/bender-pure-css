@@ -71,10 +71,12 @@
   }
 
   28% {
-    background-color: rgb(251, 167, 32);
+    // background-color: rgb(251, 167, 32);
+    background-color: rgb(251, 201, 119);
   }
   48% {
-    background-color: rgb(251, 167, 32);
+    // background-color: rgb(251, 167, 32);
+    background-color: rgb(251, 201, 119);
   }
   78% {
     background-color: rgb(238, 81, 34);
@@ -84,38 +86,37 @@
   }
 }
 
-
 // move arm with cigar
 @keyframes moveArm {
-    0% {
-        top: -3px;
-        left: 13px;
-        transform: rotate(0deg);
-    }
-    
-    22% {
-        top: -3px;
-        left: 13px;
-        transform: rotate(0deg);
-    }
-    30% {
-        top: -11px;
-        left: 6px;
-        transform: rotate(-3deg);
-    }
-    70% {
-        top: -11px;
-        left: 6px;
-        transform: rotate(-3deg);
-    }
-    80% {
-        top: -3px;
-        left: 13px;
-         transform: rotate(0deg);
-    }
-    100% {
-        top: -3px;
-        left: 13px;
-         transform: rotate(0deg);
-    }
+  0% {
+    top: -3px;
+    left: 13px;
+    transform: rotate(0deg);
   }
+
+  22% {
+    top: -3px;
+    left: 13px;
+    transform: rotate(0deg);
+  }
+  30% {
+    top: -11px;
+    left: 6px;
+    transform: rotate(-3deg);
+  }
+  70% {
+    top: -11px;
+    left: 6px;
+    transform: rotate(-3deg);
+  }
+  80% {
+    top: -3px;
+    left: 13px;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: -3px;
+    left: 13px;
+    transform: rotate(0deg);
+  }
+}

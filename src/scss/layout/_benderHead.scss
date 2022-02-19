@@ -85,7 +85,8 @@
       top: -23px;
       &--faceTop {
         position: relative;
-        top: 0.1px;
+        // top: 0.1px;
+        top: 0.8px;
         width: 48px;
         height: 55px;
         background-color: $grey;
@@ -163,14 +164,16 @@
         &--part2 {
           position: absolute;
           border-right: 1px solid $borderColor;
-          bottom: -0.9px;
+          // bottom: -0.9px;
+          bottom: -1.9px;
           right: -2.1px;
           width: 8px;
           height: 11px;
           background-color: $grey;
           border-bottom: 1px solid $borderColor;
           border-radius: 0 0 3px 0;
-          transform: skew(10deg) rotate(0deg);
+          // transform: skew(10deg) rotate(0deg);
+          transform: skew(10deg) rotate(357deg);
         }
       }
       &--faceBottom {
@@ -185,7 +188,9 @@
         &--mouth {
           position: absolute;
           z-index: 52;
-          right: -4px;
+          top: 0.8px;
+          // right: -4px;
+          left: 6.2px;
           width: 37px;
           height: 19px;
           background-color: $mouthColor;
@@ -226,6 +231,9 @@
           .tooth7,
           .tooth12 {
             outline: 0.5px solid $borderColor;
+          }
+          .tooth1 {
+            border-left: $mouthColor;
           }
           .tooth5 {
             border-left: $mouthColor;
