@@ -68,7 +68,8 @@
           top: -1.9px;
           left: 0.25px;
           border-bottom: 19px solid $grey;
-          border-left: 2px solid transparent;
+          // border-left: 2px solid transparent;
+          border-left: 2.3px solid transparent;
           border-right: 3.05px solid transparent;
           border-radius: 5px;
           transform: rotate(-1deg);
@@ -308,7 +309,8 @@
           .tooth1 {
             // border-left: $mouthColor;
             outline: 7px solid black;
-            box-shadow: -2px 0px 0px 0px #000000;
+            // box-shadow: -2px 0px 0px 0px #000000;
+            border-left: 0.1px solid $borderColor;
           }
           .tooth5 {
             border-left: $mouthColor;

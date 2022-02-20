@@ -20,7 +20,7 @@
     position: relative;
     top: -67.5px;
     z-index: 49;
-    width: 100px;
+    width: 99.8px;
     height: 24px;
     background-color: $neckColor;
     clip-path: polygon(6% 100%, 33% 0%, 70% 0%, 95% 100%);
@@ -43,7 +43,9 @@
 
 
     position: relative;
-    z-index: 51;
+    // z-index: 51;
+
+    z-index: 48;
     top: -97.5px;
     left: 29.3px;
     width: 4px;
@@ -71,7 +73,7 @@
     position: relative;
     z-index: 48;
     top: -182px;
-    left: -1.4px;
+    left: -1.38px;
     width: 90.5px;
     height: 80px;
     background-color: $grey;
