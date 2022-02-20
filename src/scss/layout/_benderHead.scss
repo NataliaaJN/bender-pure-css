@@ -207,12 +207,14 @@
           background-color: $grey;
           // border-bottom: 1px solid $borderColor;
 
-          border-bottom: 0.75px solid $borderColor;
+          // border-bottom: 0.75px solid $borderColor;
+
+          border-bottom: 1px solid $borderColor;
           border-radius: 0 0 3px 0;
           // transform: skew(10deg) rotate(0deg);
           transform: skew(10deg) rotate(357deg);
           @media(min-width: 1024px){
-            bottom: -1.1px;
+            bottom: -0.9px;
           }
         }
       }
@@ -253,6 +255,11 @@
           border: 0.5px solid $borderColor;
            outline: 0.15px solid black;
           box-shadow: inset -0.2px 0.1px 0px 0px #000000;
+
+          @media(min-width: 1024px){
+            border: 0px solid $borderColor;
+           outline: 0.5px solid black;
+          }
           .tooth {
             position: relative;
             // top: -0.5px;
@@ -351,7 +358,7 @@
       height: 15px;
       background-color: $grey;
       border-bottom: 1.25px solid $borderColor;
-      border-radius: 35% 35% 2.75px 35%;
+      border-radius: 35% 35% 2.6px 35%;
 
       // box-shadow: -0.3px 1.85px 0.5px 0px #000000;
       // box-shadow: 0.4px 1.9px 2px 0px #000000
@@ -367,6 +374,10 @@
       // background-color: $grey;
       // border-bottom: 1.25px solid $borderColor;
       // border-radius: 35% 35% 6.5% 35%;
+
+      //width: 42.85px;
+      // border-bottom: 1.25px solid $borderColor;
+      // border-radius: 35% 35% 2.75px 35%;
       }
     }
   }
