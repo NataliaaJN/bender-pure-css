@@ -66,11 +66,13 @@
           // top: -2.1px;
 
           top: -1.9px;
-          left: 0.25px;
+          // left: 0.25px;
+          left: 0.27px;
           border-bottom: 19px solid $grey;
           // border-left: 2px solid transparent;
           border-left: 2.3px solid transparent;
-          border-right: 3.05px solid transparent;
+         // border-right: 3.05px solid transparent;
+         border-right: 3.25px solid transparent;
           border-radius: 5px;
           transform: rotate(-1deg);
           border-radius: 40px 40px 5px 5px/ 52px 15px 5px 5px;
@@ -351,7 +353,9 @@
     &--bottom {
       position: relative;
       z-index: 51;
-      top: -12.5px;
+      // top: -12.5px;
+
+      top: -12.75px;
       left: 1px;
       // width: 40px;
 
@@ -361,7 +365,7 @@
       background-color: $grey;
       border-bottom: 1.25px solid $borderColor;
       border-radius: 35% 35% 2.4px 35%;
-      border-radius: 35% 35% 2.3px 35%;
+      // border-radius: 35% 35% 2.3px 35%;
 
       // box-shadow: -0.3px 1.85px 0.5px 0px #000000;
       // box-shadow: 0.4px 1.9px 2px 0px #000000
