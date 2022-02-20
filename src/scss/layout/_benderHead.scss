@@ -44,8 +44,8 @@
         top: -1.8px;
         left: 0.3px;
         border-bottom: 19px solid $borderColor;
-        border-left: 3px solid transparent;
-        border-right: 4px solid transparent;
+        border-left: 2.75px solid transparent;
+        border-right: 3.75px solid transparent;
         border-radius: 5px;
         transform: rotate(-1deg);
         border-radius: 40px 40px 5px 5px/ 52px 15px 5px 5px;
@@ -194,7 +194,9 @@
 
           // bottom: -0.75px;
 
-          bottom: -0.6px;
+          // bottom: -0.6px;
+
+          bottom: -0.5px;
           right: -2.1px;
           width: 8px;
           height: 11px;
@@ -307,6 +309,8 @@
           height: 9px;
           width: 44px;
           border-radius: 0 2px 6px 12px;
+
+          // box-shadow: -1.2px 3px 2px 0px #000000;
         }
       }
     }
@@ -316,11 +320,16 @@
       z-index: 51;
       top: -12.5px;
       left: 1px;
-      width: 40px;
+      // width: 40px;
+
+      width: 41.5px;
       height: 15px;
       background-color: $grey;
-      border-bottom: 0.75px solid $borderColor;
-      border-radius: 35% 35% 8% 35%;
+      border-bottom: 1.25px solid $borderColor;
+      border-radius: 35% 35% 6.5% 35%;
+
+      // box-shadow: -0.3px 1.85px 0.5px 0px #000000;
+      // box-shadow: 0.4px 1.9px 2px 0px #000000
     }
   }
 }
