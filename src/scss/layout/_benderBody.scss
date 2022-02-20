@@ -316,6 +316,7 @@
 
     &--rightArm {
       position: relative;
+      // z-index: 999;
       top: -3px;
       left: 10px;
       animation: moveArm 8.5s linear infinite;

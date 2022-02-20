@@ -1,29 +1,39 @@
+.smokeContainer{
+  position: relative;
+  top: -799px;
+  left: 115px;
+}
+
 .smoke, .smoke-2, .smoke-3, .smoke-4, .smoke-5 {
   position: relative;
   width: 5px;
   height: 6px;
   border-radius: 50%;
   background: rgb(211, 210, 210);
-  top: -799px;
-  left: 115px;
-  animation: animeSmoke 2.2s linear infinite;
+  // top: -799px;
+  // left: 115px;
+  // animation: animeSmoke 2.2s linear infinite;
+
+  animation: animeSmoke 4.2s linear infinite;
   z-index: 999;
 }
 
 .smoke-2 {
-  animation: animeSmoke2 2.7s linear 1.5s infinite;
+  // animation: animeSmoke2 2.7s linear 1.5s infinite;
+  animation: animeSmoke2 3.7s linear 8s infinite;
 }
 
 .smoke-3 {
-  animation: animeSmoke3 3.2s linear 2s infinite;
+  animation: animeSmoke3 3.2s linear 8s infinite;
 }
 
 .smoke-4 {
-  animation: animeSmoke4 2.7s linear 1.5s infinite;
+  animation: animeSmoke4 2.7s linear 8s infinite;
 }
 
 .smoke-5 {
-  animation: animeSmoke2 2.7s linear 2s infinite;
+  // animation: animeSmoke2 2.7s linear 2s infinite;
+  animation: animeSmoke2 3.3s linear 8s infinite;
 }
 
 
