@@ -30,8 +30,6 @@
       &--ballTop {
         position: relative;
         z-index: 10;
-        // top: 0.3px;
-
         top: 0.4px;
         left: -0.1px;
         width: 7px;
@@ -68,7 +66,7 @@
           // top: -2.1px;
 
           top: -1.9px;
-          left: 0.3px;
+          left: 0.25px;
           border-bottom: 19px solid $grey;
           border-left: 2px solid transparent;
           border-right: 3px solid transparent;
@@ -112,6 +110,7 @@
 
         border-bottom: 0;
         &--eyesOutContainer {
+          
           display: flex;
           justify-content: center;
           align-items: center;
@@ -127,6 +126,7 @@
           border: 0.75px solid $borderColor;
           border-radius: 17px 20px 20px 17px;
           &--eyesInnerContainer {
+            overflow: hidden;
             position: absolute;
             display: flex;
             z-index: -3;
@@ -346,7 +346,8 @@
       left: 1px;
       // width: 40px;
 
-      width: 42.5px;
+      // width: 42.5px;
+      width: 42.85px;
       height: 15px;
       background-color: $grey;
       border-bottom: 1.25px solid $borderColor;
