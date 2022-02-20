@@ -70,9 +70,9 @@
           left: 0.27px;
           border-bottom: 19px solid $grey;
           // border-left: 2px solid transparent;
-          border-left: 2.3px solid transparent;
+          border-left: 2.2px solid transparent;
          // border-right: 3.05px solid transparent;
-         border-right: 3.25px solid transparent;
+         border-right: 3.15px solid transparent;
           border-radius: 5px;
           transform: rotate(-1deg);
           border-radius: 40px 40px 5px 5px/ 52px 15px 5px 5px;
@@ -315,7 +315,8 @@
             border-left: 0.1px solid $borderColor;
           }
           .tooth5 {
-            border-left: $mouthColor;
+            // border-left: $mouthColor;
+            border-left: 0.1px solid $borderColor;
           }
           .tooth8 {
             box-shadow: 2px 0px 0px 0px #000000;
