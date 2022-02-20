@@ -14,7 +14,7 @@
     transform: rotate(45deg);
     background-color: $neckColor;
     border-left: 0.75px solid $borderColor;
-    border-radius: 50% 0 50% 50%;
+    border-radius: 50% 0 40% 50%;
   }
   &__neck {
     position: relative;
@@ -30,16 +30,29 @@
     transform: rotate(-2deg);
   }
   &__rightBorderNeck {
+    // position: relative;
+    // z-index: 51;
+    // top: -98px;
+    // left: 29.5px;
+    // width: 4px;
+    // height: 30px;
+    // transform: rotate(-49deg);
+    // background-color: $neckColor;
+    // border-right: 0.75px solid $borderColor;
+    // border-radius: 0 50% 50% 50%;
+
+
     position: relative;
     z-index: 51;
-    top: -98px;
-    left: 29.5px;
+    top: -97.5px;
+    left: 29.3px;
     width: 4px;
     height: 30px;
     transform: rotate(-49deg);
     background-color: $neckColor;
     border-right: 0.75px solid $borderColor;
-    border-radius: 0 50% 50% 50%;
+    // border-radius: 0 50% 50% 50%;
+    border-radius: 0 50% 35% 50%;
   }
 
   &__mainBodyBorder {
