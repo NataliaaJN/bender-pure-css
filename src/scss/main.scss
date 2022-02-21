@@ -6,10 +6,9 @@
 @import "layout/smoke";
 
 .background {
-  //background-color: rgb(238, 218, 187);
   background-color: $bkColor;
+  //background-color: rgb(238, 218, 187);
   //background-color: rgb(233, 200, 111);
-  // background: repeating-linear-gradient(90deg,rgb(189, 148, 61) ,yellow 60px);
   //   background: url(../images/background.jpg) center center no-repeat;
   //   background-color: rgb(238, 188, 52);
   //   background-blend-mode: luminosity;
@@ -18,10 +17,6 @@
   display: grid;
   place-items: center;
   overflow: hidden;
-  // @media (min-width: 1200px){
-  //   height: 100%;
-  //   overflow: hidden;
-  //  }
 }
 
 .title {
@@ -32,8 +27,7 @@
   text-transform: uppercase;
   // color: rgb(255, 208, 0);
   color: rgb(233, 200, 111);
-  //   text-shadow: -3.5px -1px 1px #000, 3.5px 1px 1px #000,
-  //     -3.5px 1px 1px #000, 3.5px -1px 1px #000;
+  
   @media (min-width: 768px) {
     margin-top: 130px;
     transform: scale(1.5, 1.5);

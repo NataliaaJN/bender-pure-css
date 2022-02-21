@@ -71,11 +71,9 @@
   }
 
   28% {
-    // background-color: rgb(251, 167, 32);
     background-color: rgb(251, 201, 119);
   }
   48% {
-    // background-color: rgb(251, 167, 32);
     background-color: rgb(251, 201, 119);
   }
   78% {
@@ -153,98 +151,69 @@
 
 // smoke animation
 @keyframes animeSmoke {
-    40% {
-        filter: blur(16px);
-         opacity: 0.5;
-      }
-
-    95% {
-      filter: blur(16px);
-       opacity: 0.5;
-       
-    }
-    
-    100% {
-      transform: translate(30px, -80px);
-      filter: blur(20px);
-      opacity: 0;
-    }
-  }
-  
-  @keyframes animeSmoke2 {
-    // 30% {
-    //   filter: blur(16px);
-    //    opacity: 0.5;
-    // }
-    50% {
-        filter: blur(16px);
-         opacity: 0.5;
-      }
-    90% {
-      filter: blur(16px);
-      opacity: 0.25;
-    }
-    100% {
-      transform: translate(0, -90px);
-      filter: blur(20px);
-      opacity: 0;
-    }
-  }
-  
-  @keyframes animeSmoke3 {
-    50% {
-        filter: blur(16px);
-         opacity: 0.5;
-      }
-    90% {
-      filter: blur(16px);
-       opacity: 0.25;
-    }
-    
-    100% {
-      transform: translate(20px, -70px);
-      filter: blur(20px);
-      opacity: 0;
-    }
-  }
-  
-  @keyframes animeSmoke4 {
-    50% {
-        filter: blur(16px);
-         opacity: 0.5;
-      }
-    90% {
-      filter: blur(16px);
-       opacity: 0.25;
-    }
-    
-    100% {
-      transform: translate(-10px, -95px);
-      filter: blur(20px);
-      opacity: 0;
-    }
-  }
-  
-
-
-/* PRUEBA 1
-@keyframes smoke {
-  0% {
-    transform: translateY(0) scaleX(1);
-    opacity: 0;
+  40% {
+    filter: blur(16px);
+    opacity: 0.5;
   }
 
-  15% {
-    opacity: 1;
-  }
-  50% {
-    transform: translateY(-150px) scaleX(5);
-  }
   95% {
-    opacity: 0;
+    filter: blur(16px);
+    opacity: 0.5;
   }
+
   100% {
-    transform: translateY(-300px) scaleX(10);
+    transform: translate(30px, -80px);
+    filter: blur(20px);
+    opacity: 0;
   }
 }
-*/
+
+@keyframes animeSmoke2 {
+  50% {
+    filter: blur(16px);
+    opacity: 0.5;
+  }
+  90% {
+    filter: blur(16px);
+    opacity: 0.25;
+  }
+  100% {
+    transform: translate(0, -90px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes animeSmoke3 {
+  50% {
+    filter: blur(16px);
+    opacity: 0.5;
+  }
+  90% {
+    filter: blur(16px);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translate(20px, -70px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes animeSmoke4 {
+  50% {
+    filter: blur(16px);
+    opacity: 0.5;
+  }
+  90% {
+    filter: blur(16px);
+    opacity: 0.25;
+  }
+
+  100% {
+    transform: translate(-10px, -95px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+}

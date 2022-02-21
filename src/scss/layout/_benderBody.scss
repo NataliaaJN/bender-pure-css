@@ -30,21 +30,7 @@
     transform: rotate(-2deg);
   }
   &__rightBorderNeck {
-    // position: relative;
-    // z-index: 51;
-    // top: -98px;
-    // left: 29.5px;
-    // width: 4px;
-    // height: 30px;
-    // transform: rotate(-49deg);
-    // background-color: $neckColor;
-    // border-right: 0.75px solid $borderColor;
-    // border-radius: 0 50% 50% 50%;
-
-
     position: relative;
-    // z-index: 51;
-
     z-index: 48;
     top: -97.5px;
     left: 29.3px;
@@ -119,11 +105,8 @@
     position: relative;
     z-index: 51;
     top: -187px;
-    // left: 6.81px;
-
     left: 6.9px;
     width: 58.8px;
-    // width: 58.9px;
     height: 10px;
     transform: rotate(-2deg);
     background-color: $grey;
@@ -302,7 +285,7 @@
           height: 7.3px;
           transform: rotate(-61deg);
           background-color: $handsAndFeetColor;
-          border-right: 0.5px solid ;
+          border-right: 0.5px solid;
         }
 
         &__finger2 {
@@ -334,7 +317,6 @@
 
     &--rightArm {
       position: relative;
-      // z-index: 999;
       top: -3px;
       left: 10px;
       animation: moveArm 8.5s linear infinite;
@@ -588,7 +570,6 @@
         height: 17px;
         width: 15.45px;
 
-
         top: -0.1px;
         left: 0.15px;
       }
@@ -660,8 +641,6 @@
       .piece3 {
         z-index: 1;
         top: -8px;
-        // left: 8.3px;
-
         left: 8.15px;
         width: 15.2px;
         height: 20px;

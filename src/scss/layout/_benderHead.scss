@@ -11,10 +11,10 @@
     margin-top: 320px;
     transform: scale(1.75, 1.75);
   }
-  @media (min-width: 1200px){
+  @media (min-width: 1200px) {
     margin-top: 430px;
-    transform: scale(2,2);
-   }
+    transform: scale(2, 2);
+  }
   &__head {
     position: relative;
     z-index: 999;
@@ -41,8 +41,6 @@
       &--border {
         position: relative;
         z-index: 9;
-        // top: -2.1px;
-
         top: -1.8px;
         left: 0.3px;
         border-bottom: 19px solid $borderColor;
@@ -63,16 +61,14 @@
         &--body {
           position: relative;
           z-index: 9;
-          // top: -2.1px;
-
           top: -1.9px;
           // left: 0.25px;
           left: 0.27px;
           border-bottom: 19px solid $grey;
           // border-left: 2px solid transparent;
           border-left: 2.2px solid transparent;
-         // border-right: 3.05px solid transparent;
-         border-right: 3.15px solid transparent;
+          // border-right: 3.05px solid transparent;
+          border-right: 3.15px solid transparent;
           border-radius: 5px;
           transform: rotate(-1deg);
           border-radius: 40px 40px 5px 5px/ 52px 15px 5px 5px;
@@ -81,18 +77,14 @@
       &--base {
         position: relative;
         z-index: 100;
-        // top: -21.4px;
-
         top: -21.3px;
         left: 0.3px;
         width: 17px;
         height: 3.8px;
         background-color: $neckColor;
-
         clip-path: polygon(6% 100%, 35% 0%, 67% 0%, 95% 100%);
         border-bottom-right-radius: 40%;
         border-bottom-left-radius: 40%;
-        // border: 1px solid $borderColor;
         border: 0.75px solid $borderColor;
       }
     }
@@ -101,19 +93,15 @@
       top: -23px;
       &--faceTop {
         position: relative;
-        // top: 0.1px;
         top: 0.8px;
         width: 48px;
         height: 55px;
         background-color: $grey;
         border-radius: 20px 20px 0 0;
-        // border: 1px solid $borderColor;
-
         border: 0.75px solid $borderColor;
-
         border-bottom: 0;
+
         &--eyesOutContainer {
-          
           display: flex;
           justify-content: center;
           align-items: center;
@@ -124,10 +112,9 @@
           width: 50px;
           height: 23px;
           background-color: $eyesOuterContainerColor;
-          // border: 1px solid $borderColor;
-
           border: 0.75px solid $borderColor;
           border-radius: 17px 20px 20px 17px;
+
           &--eyesInnerContainer {
             overflow: hidden;
             position: absolute;
@@ -137,8 +124,6 @@
             width: 38px;
             height: 18px;
             background-color: $eyesInnerContainerColor;
-            // border: 1px solid $borderColor;
-
             border: 0.75px solid $borderColor;
             border-radius: 17px 20px 20px 17px;
 
@@ -166,12 +151,8 @@
               border-radius: 20px;
               &--pupil {
                 position: relative;
-                // top: 5px;
-                // left: 10px;
-
                 top: 5px;
                 left: 6px;
-
                 width: 3.5px;
                 height: 3.5px;
                 background-color: $pupilColor;
@@ -193,37 +174,24 @@
         }
         &--part2 {
           position: absolute;
-          // border-right: 1px solid $borderColor;
-          border-right: 0.75px solid $borderColor;
-          // bottom: -0.9px;
-          // bottom: -1.9px;
-          // bottom: -1.4px;
-
           // bottom: -0.75px;
 
           // bottom: -0.6px;
 
           // bottom: -0.5px;
 
-          // bottom: -0.6px;
-
           // bottom: -0.55px;
 
           bottom: -0.033rem;
-          
           right: -2.1px;
           width: 8px;
           height: 11px;
           background-color: $grey;
-          // border-bottom: 1px solid $borderColor;
-
-          // border-bottom: 0.75px solid $borderColor;
-
           border-bottom: 1px solid $borderColor;
+          border-right: 0.75px solid $borderColor;
           border-radius: 0 0 3px 0;
-          // transform: skew(10deg) rotate(0deg);
           transform: skew(10deg) rotate(357deg);
-          @media(min-width: 1024px){
+          @media (min-width: 1024px) {
             bottom: -0.9px;
           }
         }
@@ -233,9 +201,6 @@
         width: 40px;
         height: 25px;
         background-color: $grey;
-        // border-left: 1px solid black;
-        // border-bottom: 1px solid $borderColor;
-
         border-left: 0.75px solid $borderColor;
         border-bottom: 0.75px solid $borderColor;
         border-radius: 0 0 8px 5px;
@@ -243,44 +208,27 @@
         &--mouth {
           position: absolute;
           z-index: 52;
-          // top: 0.8px;
-          // top: 1.1px;
-
           top: 0.8px;
-          // right: -4px;
           left: 6.4px;
           width: 37px;
-          // height: 19px;
-          // height: 18px;
-
           height: 19px;
-          background-color: $mouthColor;
-          //border: 1px solid $borderColor;
-
-          border-radius: 30px 5px 2px 30px;
-          overflow: hidden;
           display: flex;
           flex-wrap: wrap;
-          
+          background-color: $mouthColor;
+          overflow: hidden;
           border: 0.5px solid $borderColor;
-           outline: 0.15px solid black;
+          border-radius: 30px 5px 2px 30px;
+          outline: 0.15px solid black;
           box-shadow: inset -0.2px 0.1px 0px 0px #000000;
 
-          @media(min-width: 1024px){
+          @media (min-width: 1024px) {
             border: 0px solid $borderColor;
-           outline: 0.5px solid black;
+            outline: 0.5px solid black;
           }
           .tooth {
             position: relative;
-            // top: -0.5px;
-
             top: -0.6px;
-            // left: 0.15px;
-
             left: 0.45px;
-            // width: 8.75px;
-
-            //width: 8.76px;
             width: 9px;
             height: 7px;
             border: 0.5px solid $borderColor;
@@ -310,19 +258,11 @@
           .tooth12 {
             outline: 0.5px solid $borderColor;
           }
-          // .tooth4,
-          // .tooth8,
-          // .tooth12 {
-          //   border-right: 0.1px solid $borderColor;
-          // }
           .tooth1 {
-            // border-left: $mouthColor;
             outline: 7px solid black;
-            // box-shadow: -2px 0px 0px 0px #000000;
             border-left: 0.1px solid $borderColor;
           }
           .tooth5 {
-            // border-left: $mouthColor;
             border-left: 0.1px solid $borderColor;
           }
           .tooth8 {
@@ -333,27 +273,12 @@
         &--part2 {
           position: absolute;
           right: -5px;
-          background-color: $grey;
-          border-right: 0.75px solid $borderColor;
-          // border-bottom: 0.1px solid $borderColor;
           bottom: -3px;
           height: 9px;
           width: 44px;
+          background-color: $grey;
+          border-right: 0.75px solid $borderColor;
           border-radius: 0 2px 6px 12px;
-
-          @media(min-width: 1024px){
-          //   position: absolute;
-          // right: -5px;
-          // background-color: $grey;
-          // border-right: 0.75px solid $borderColor;
-          // border-bottom: 0.75px solid $borderColor;
-          // bottom: -3px;
-          // height: 9px;
-          // width: 44px;
-          // border-radius: 0 2px 6px 12px;
-          }
-
-          
         }
       }
     }
@@ -361,12 +286,9 @@
     &--bottom {
       position: relative;
       z-index: 51;
-      // top: -12.5px;
-
       top: -12.75px;
       left: 1px;
       // width: 40px;
-
       // width: 42.5px;
       width: 42.85px;
       height: 15px;
@@ -374,26 +296,6 @@
       border-bottom: 1.25px solid $borderColor;
       border-radius: 35% 35% 2.4px 35%;
       // border-radius: 35% 35% 2.3px 35%;
-
-      // box-shadow: -0.3px 1.85px 0.5px 0px #000000;
-      // box-shadow: 0.4px 1.9px 2px 0px #000000
-
-      @media(min-width: 1024px){
-      //   position: relative;
-      // z-index: 51;
-      // top: -12.5px;
-      // left: 1px;
-      
-      // width: 41.5px;
-      // height: 15px;
-      // background-color: $grey;
-      // border-bottom: 1.25px solid $borderColor;
-      // border-radius: 35% 35% 6.5% 35%;
-
-      //width: 42.85px;
-      // border-bottom: 1.25px solid $borderColor;
-      // border-radius: 35% 35% 2.75px 35%;
-      }
     }
   }
 }
