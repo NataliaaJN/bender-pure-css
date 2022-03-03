@@ -7,12 +7,6 @@
 
 .background {
   background-color: $bkColor;
-  //background-color: rgb(238, 218, 187);
-  //background-color: rgb(233, 200, 111);
-  //   background: url(../images/background.jpg) center center no-repeat;
-  //   background-color: rgb(238, 188, 52);
-  //   background-blend-mode: luminosity;
-  //   background-size: cover;
   height: 100%;
   display: grid;
   place-items: center;
@@ -22,10 +16,8 @@
 .title {
   margin-top: 100px;
   font-size: 40px;
-  //color: rgb(165, 56, 29);
   letter-spacing: 15px;
   text-transform: uppercase;
-  // color: rgb(255, 208, 0);
   color: rgb(233, 200, 111);
   
   @media (min-width: 768px) {

@@ -62,12 +62,9 @@
           position: relative;
           z-index: 9;
           top: -1.9px;
-          // left: 0.25px;
           left: 0.27px;
           border-bottom: 19px solid $grey;
-          // border-left: 2px solid transparent;
           border-left: 2.2px solid transparent;
-          // border-right: 3.05px solid transparent;
           border-right: 3.15px solid transparent;
           border-radius: 5px;
           transform: rotate(-1deg);
@@ -174,14 +171,6 @@
         }
         &--part2 {
           position: absolute;
-          // bottom: -0.75px;
-
-          // bottom: -0.6px;
-
-          // bottom: -0.5px;
-
-          // bottom: -0.55px;
-
           bottom: -0.033rem;
           right: -2.1px;
           width: 8px;
@@ -288,14 +277,11 @@
       z-index: 51;
       top: -12.75px;
       left: 1px;
-      // width: 40px;
-      // width: 42.5px;
       width: 42.85px;
       height: 15px;
       background-color: $grey;
       border-bottom: 1.25px solid $borderColor;
       border-radius: 35% 35% 2.4px 35%;
-      // border-radius: 35% 35% 2.3px 35%;
     }
   }
 }
